@@ -1,9 +1,17 @@
-import React from 'react';
+import About from '@/pages/about';
+import Header from '@/pages/header/header';
+import MobileHeader from '@/pages/header/mobileHeader';
+import TechStack from '@/pages/tech/tech';
+
 
 const HomePage = () => {
   return (
     <div>
-      <h1>HomePage</h1>
+    <div className='hidden lg:block'><Header></Header></div>
+     <MobileHeader></MobileHeader>
+     <TechStack></TechStack>
+   
+
     </div>
   );
 };
