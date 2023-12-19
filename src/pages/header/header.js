@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const Header = () => {
     return (
-     <div className='flex items-center'>
+     <div className='flex items-center bg-slate-100 p-5'>
         <div className='w-[80%]'>
         <div className='mx-20 mt-20'>      
        
@@ -25,7 +25,7 @@ experiences for the web is my passion.</p>
         
  
       <div className='w-[30%]'>
-      <Image
+      <Image 
             src={img}
             alt='Header Foto'
            />

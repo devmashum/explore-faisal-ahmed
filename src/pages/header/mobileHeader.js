@@ -7,7 +7,7 @@ import img from '../../assets/Bewerbungsfoto.jpg'
 const MobileHeader = () => {
     return (
         <div className='lg:hidden block p-5'>
-            <h3 className='text-4xl '>MY NAME IS <br />
+            <h3 className='text-3xl '>MY NAME IS <br />
 <span className='font-bold'>FAISAL AHMED...</span></h3>
 <h4 className='text-xl font-semibold my-2'>Frontend Developer based in Berlin</h4>
 <p className=' text-base font-semibold'>Crafting outstanding and user-friendly digital experiences for the web is my passion.</p>
