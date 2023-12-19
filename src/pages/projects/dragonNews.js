@@ -14,19 +14,19 @@ const DragonNews = () => {
               <span className='font-bold'>Project Name:</span> The Dragon News
             </h2>
             <div className='flex gap-3'>
-              <Link href="https://github.com/devmashum/car-doctor-client" target='_blank'>
+              <Link href="https://github.com/devmashum/the-dragon-news" target='_blank'>
                 <div className='flex gap-1 justify-center items-center'>
                   <h2 className='font-bold'>Client</h2>
                   <FaGithub />
                 </div>
               </Link>
-              <Link href="https://github.com/devmashum/carDoctor-server" target='_blank'>
+              <Link href="https://github.com/devmashum/the-dragon-news-server" target='_blank'>
                 <div className='flex gap-1 justify-center items-center'>
                   <h2 className='font-bold'>Server </h2>
                   <FaGithub />
                 </div>
               </Link>
-              <Link href="https://car-doctor-2b00a.web.app/" target='_blank'>
+              <Link href="https://the-dragon-news-alpha.vercel.app/" target='_blank'>
                 <div className='flex gap-1 justify-center items-center'>
                   <h2 className='font-bold'>Live </h2>
                   <FaExternalLinkAlt />
@@ -34,7 +34,7 @@ const DragonNews = () => {
               </Link>
             </div>
           </div>
-          <Link href="https://car-doctor-2b00a.web.app/" target='_blank'>
+          <Link href="https://the-dragon-news-alpha.vercel.app/" target='_blank'>
             <figure>
               <Image src={img} alt='Apex' width={800} />
             </figure>

@@ -11,7 +11,7 @@ const CarDoctor = () => {
         <div className='card bg-base-100 shadow-xl'>
           <div className='flex justify-between'>
             <h2>
-              <span className='font-bold'>Project Name:</span> Apex Artistry
+              <span className='font-bold'>Project Name:</span> Car Doctor
             </h2>
             <div className='flex gap-3'>
               <Link href="https://github.com/devmashum/car-doctor-client" target='_blank'>
