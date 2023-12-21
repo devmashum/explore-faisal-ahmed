@@ -9,8 +9,8 @@ const ApexArtistry = () => {
       <div className='lg:w-[50%]'>
         <div className='card bg-base-100 shadow-xl'>
           <div className='flex justify-between'>
-            <h2>
-              <span className='font-bold'>Project Name:</span> Apex Artistry
+            <h2 className='hidden lg:block'>
+              <span className='font-bold '>Project Name:</span> Apex Artistry
             </h2>
             <div className='flex gap-3'>
               <Link href='https://github.com/devmashum/ApexArtisty-Client' target='_blank'>
@@ -33,25 +33,30 @@ const ApexArtistry = () => {
               </Link>
             </div>
           </div>
+
+          
           <Link href='https://apexartistry-47b43.web.app/' target='_blank'>
             <figure>
-              <Image src={img} alt='Apex' width={800} />
+              <Image src={img}  alt='Apex' width={800} style="transform: translateY(0%); transition: transform 10s ease-in-out 0s;" />
             </figure>
           </Link>
-          <div className='lg:p-10 p-3 grid grid-cols-3 lg:grid-cols-5 gap-5 text-center'>
-            <h2 className='border border-xl border-black px-3'>HTML</h2>
-            <h2 className='border border-xl border-black px-3'>CSS</h2>
-            <h2 className='border border-xl border-black'>JavaScript</h2>
-            <h2 className='border border-xl border-black px-3'>React</h2>
-            <h2 className='border border-xl border-black px-3'>DaisyUi</h2>
-            <h2 className='border border-xl border-black px-3'>MongoDB</h2>
-            <h2 className='border border-xl border-black px-3'>Firebase</h2>
-            <h2 className='border border-xl border-black px-3'>JWT</h2>
-            <h2 className='border border-xl border-black px-3'>Stripe</h2>
+          <div className='lg:p-10 grid grid-cols-3 lg:grid-cols-5 lg:gap-5 gap-2 text-center'>
+            <h2 className='border border-xl border-black text-sm lg:text-base'>HTML</h2>
+            <h2 className='border border-xl border-black'>CSS</h2>
+                      <h2 className='border border-xl border-black'>JavaScript</h2>
+            <h2 className='border border-xl border-black'>React</h2>
+            <h2 className='border border-xl border-black'>DaisyUi</h2>
+            <h2 className='border border-xl border-black'>MongoDB</h2>
+            <h2 className='border border-xl border-black'>Firebase</h2>
+            <h2 className='border border-xl border-black'>JWT</h2>
+            <h2 className='border border-xl border-black'>Stripe</h2>
           </div>
         </div>
       </div>
       <div className='lg:w-[50%] mt-5 lg:mt-0 lg:ml-10'>
+      <h2 className='lg:hidden block'>
+              <span className='font-bold'>Project Name:</span> Apex Artistry
+            </h2>
         <h3 className='font-extrabold'>Project Details: </h3>
         <p>
           ApexArtistry is a dynamic, responsive platform enabling users to support artists through donations.
@@ -67,13 +72,16 @@ const ApexArtistry = () => {
         Password (same for all users): 123456
         <br />
         <br />
-        <b>Dashboard:</b> I have created a dashboard for three types of users. <br />
-        <br />
-        1. Normal User: A normal user can select an art and donate using the Card Payment method.
-        In the normal user dashboard, users can check their profile, cart, donated contests, and payment history.
-        <br />
-        <br />
-        <button className='btn btn-primary bg-[#242323] text-white p-2'>Show Details</button>
+              
+<b>User Authentication:</b> For user registration, user login/logout system, I have utilized Firebase. <br />
+<b>Security:</b> I have secured this website using Json Web Token (JWT). <br/>
+
+<b>Payment:</b> The most popular payment method, Stripe, is implemented for the payment process. <br/>
+<b>DataStore:</b> To store all data, I have used MongoDB.
+
+            <br />
+        
+
       </div>
     </div>
   );

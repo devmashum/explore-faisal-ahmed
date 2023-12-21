@@ -17,7 +17,7 @@ const Header = () => {
             <h3 className=' font-semibold text-xl'>Frontend Developer based in Berlin</h3>
             <p className='text-base font-semibold'>Crafting outstanding and user-friendly digital
 experiences for the web is my passion.</p>
-<p className='mt-2'>I am a front-end web developer. I love using my creativity to make something new. That's why I enjoy working with React.js, Tailwind, JavaScript, and other web technologies. Over the last year, I have gathered knowledge in various parts of web development on my own. I have also attended two web developer bootcamps to further extend my knowledge in the web technology field. My ultimate goal is to become an awesome full-stack web developer who can create beautiful UIs and also handle the back-end smoothly. 🚀
+<p className='mt-2'>I am a front-end web developer. I love using my creativity to make something new. That is why I enjoy working with React.js, Tailwind, JavaScript, and other web technologies. Over the last year, I have gathered knowledge in various parts of web development on my own. I have also attended two web developer bootcamps to further extend my knowledge in the web technology field. My ultimate goal is to become an awesome full-stack web developer who can create beautiful UIs and also handle the back-end smoothly. 🚀
 </p>
 
            

@@ -1,4 +1,5 @@
 import About from '@/pages/about';
+import Footer from '@/pages/footer/footer';
 import Header from '@/pages/header/header';
 import MobileHeader from '@/pages/header/mobileHeader';
 import Projects from '@/pages/projects/projects';
@@ -10,8 +11,9 @@ const HomePage = () => {
     <div>
     <div className='hidden lg:block'><Header></Header></div>
      <MobileHeader></MobileHeader>
-     <TechStack></TechStack>
+          <div className='lg:block hidden md:hidden'><TechStack></TechStack></div>
      <Projects></Projects>
+     <Footer></Footer>
    
 
     </div>

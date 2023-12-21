@@ -10,8 +10,8 @@ const DragonNews = () => {
       <div className='lg:w-[50%]'>
         <div className='card bg-base-100 shadow-xl'>
           <div className='flex justify-between'>
-            <h2>
-              <span className='font-bold'>Project Name:</span> The Dragon News
+          <h2 className='hidden lg:block'>
+              <span className='font-bold '>Project Name:</span> Dragon News
             </h2>
             <div className='flex gap-3'>
               <Link href="https://github.com/devmashum/the-dragon-news" target='_blank'>
@@ -42,15 +42,18 @@ const DragonNews = () => {
           <div className='lg:p-10 p-3 grid grid-cols-3 lg:grid-cols-5 gap-5 text-center'>
            
             <h2 className='border border-xl border-black'>JavaScript</h2>
-            <h2 className='border border-xl border-black px-3'>React</h2>
-            <h2 className='border border-xl border-black px-3'>DaisyUi</h2>
-            <h2 className='border border-xl border-black px-3'>MongoDB</h2>
-            <h2 className='border border-xl border-black px-3'>Firebase</h2>
-            <h2 className='border border-xl border-black px-3'>JWT</h2>
+            <h2 className='border border-xl border-black'>React</h2>
+            <h2 className='border border-xl border-black'>DaisyUi</h2>
+            <h2 className='border border-xl border-black'>MongoDB</h2>
+            <h2 className='border border-xl border-black'>Firebase</h2>
+            <h2 className='border border-xl border-black'>JWT</h2>
           </div>
         </div>
       </div>
       <div className='lg:w-[50%] mt-5 lg:mt-0 lg:ml-10'>
+      <h2 className='block lg:hidden'>
+              <span className='font-bold '>Project Name:</span> Dragon News
+            </h2>
         <h3 className='font-extrabold'>Project Details: </h3>
         <h4 className="text-slate-900 my-3  text-justify text-base">
               I am currently in the process of learning Next.js and Material-UI, and as part of this exploration,
@@ -64,7 +67,7 @@ const DragonNews = () => {
               <b>Functionalities:</b> <br />
               <b>Article Display:</b> <br /> Presenting news articles with features such as headlines, images, and summaries. <br />
               <b>Category Navigation:</b> <br /> Organizing news articles into categories for easy navigation and user convenience. <br /></h4>
-        <button className='btn btn-primary bg-[#242323] text-white p-2'>Show Details</button>
+       
       </div>
     </div>
         </div>

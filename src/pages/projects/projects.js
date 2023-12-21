@@ -8,7 +8,7 @@ import Kioko from './kioko';
 const Projects = () => {
     return (
       <div>
-      <h1 className='pl-10 text-3xl uppercase font-semibold'>Recent Projects:</h1>
+      <h1 className='pl-10 text-3xl uppercase font-semibold mt-5'>Recent Projects:</h1>
         <ApexArtistry></ApexArtistry>
         <CarDoctor></CarDoctor>
         <DragonNews></DragonNews>
