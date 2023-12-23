@@ -5,9 +5,9 @@ import img from '../../assets/apexArtistry.png';
 
 const ApexArtistry = () => {
   return (
-    <div className='lg:flex p-10'>
-      <div className='lg:w-[50%]'>
-        <div className='card bg-base-100 shadow-xl'>
+    <div className=''>
+      <div className=''>
+        <div className='card bg-base-100 shadow-xl rounded-3xl'>
           <div className='flex justify-between'>
             <h2 className='hidden lg:block'>
               <span className='font-bold '>Project Name:</span> Apex Artistry
@@ -37,7 +37,7 @@ const ApexArtistry = () => {
           
           <Link href='https://apexartistry-47b43.web.app/' target='_blank'>
             <figure>
-              <Image src={img}  alt='Apex' width={800} style="transform: translateY(0%); transition: transform 10s ease-in-out 0s;" />
+              <Image className='w-full h-[400px] mx-auto' src={img}  alt='Apex' width={800} style="transform: translateY(0%); transition: transform 10s ease-in-out 0s;" />
             </figure>
           </Link>
           <div className='lg:p-10 grid grid-cols-3 lg:grid-cols-5 lg:gap-5 gap-2 text-center'>
@@ -53,7 +53,7 @@ const ApexArtistry = () => {
           </div>
         </div>
       </div>
-      <div className='lg:w-[50%] mt-5 lg:mt-0 lg:ml-10'>
+      {/* <div className='lg:w-[50%] mt-5 lg:mt-0 lg:ml-10'>
       <h2 className='lg:hidden block'>
               <span className='font-bold'>Project Name:</span> Apex Artistry
             </h2>
@@ -82,7 +82,7 @@ const ApexArtistry = () => {
             <br />
         
 
-      </div>
+      </div> */}
     </div>
   );
 };

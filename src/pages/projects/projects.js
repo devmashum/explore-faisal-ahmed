@@ -8,11 +8,13 @@ import Kioko from './kioko';
 const Projects = () => {
     return (
       <div>
-      <h1 className='pl-10 text-3xl uppercase font-semibold mt-5'>Recent Projects:</h1>
-        <ApexArtistry></ApexArtistry>
+      <h1 className='pl-10 text-3xl uppercase font-semibold my-5'>Recent Projects:</h1>
+     <div className='lg:grid grid-cols-2 px-10 gap-5'>
+     <ApexArtistry></ApexArtistry>
         <CarDoctor></CarDoctor>
         <DragonNews></DragonNews>
         <Kioko></Kioko>
+     </div>
       </div>
     );
 };

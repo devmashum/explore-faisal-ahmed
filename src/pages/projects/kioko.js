@@ -5,9 +5,9 @@ import img from '../../assets/Kioko Sushi GmbH.png';
 const Kioko = () => {
   return (
     <div>
-      <div className='lg:flex flex-row-reverse p-10'>
-        <div className='lg:w-[50%]'>
-          <div className='card bg-base-100 shadow-xl'>
+      <div className='mt-10'>
+        <div className=''>
+          <div className='card bg-base-100 shadow-xl rounded-3xl'>
             <div className='flex justify-between'>
               <h2>
                 <span className='font-bold'>Project Name:</span> Kioko Sushi
@@ -23,18 +23,24 @@ const Kioko = () => {
             </div>
             <a href="https://kioko-sushi.de/" target='_blank'>
               <figure>
-                <Image src={img} alt='Kioko Sushi GmbH' width={800} />
+                <Image className='mx-auto w-full lg:h-[350px]' src={img} alt='Kioko Sushi GmbH' width={800} />
               </figure>
             </a>
-            <div className='lg:p-10 p-3 grid grid-cols-3 gap-3 lg:grid-cols-5 text-center'>
+            <div className='lg:p-10 p-3 grid grid-cols-3 gap-3 lg:grid-cols-3 text-center mx-auto'>
               <h2 className='border border-xl border-black'>HTML</h2>
               <h2 className='border border-xl border-black'>CSS</h2>
               <h2 className='border border-xl border-black'>WORDPRESS</h2>
-                            
+              <h2 className='border border-xl border-white text-white'>WORDPRESS</h2>                            
               </div>
+              <div className='w-9/12 mx-auto text-center'>
+              <button className='lg:px-20 px-2 py-2 btn btn-primary bg-slate-400 text-white lg:text-xl rounded-xl mt-5 lg:mb-2'>Project Details</button>
+              </div>
+              <br />
+              <br />
           </div>
+        
         </div>
-        <div className='lg:w-[50%] mt-5 lg:mt-0 lg:mr-10'>
+        {/* <div className='lg:w-[50%] mt-5 lg:mt-0 lg:mr-10'>
           <h3 className='font-extrabold'>Project Details: </h3>
           <h4 className="text-slate-900 my-3 text-justify text-base">
             <b>Dine-In Reservations:</b> <br />
@@ -43,7 +49,7 @@ const Kioko = () => {
             <b>Online Ordering:</b> <br />
             For added convenience, customers can order their food for home delivery or takeaway directly through the website. The online ordering feature enables customers to explore an extensive menu, place an order, and choose whether they want their meal delivered or prepared for takeaway.
           </h4>
-        </div>
+        </div> */}
       </div>
     </div>
   );

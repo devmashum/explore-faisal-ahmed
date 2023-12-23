@@ -6,9 +6,9 @@ import img from '../../assets/car-doctor.png';
 const CarDoctor = () => {
     return (
         <div>
-         <div className='lg:flex flex-row-reverse p-10'>
-      <div className='lg:w-[50%]'>
-        <div className='card bg-base-100 shadow-xl'>
+         <div className=''>
+      <div className=''>
+        <div className='card bg-base-100 shadow-xl rounded-3xl'>
           <div className='flex justify-between'>
           <h2 className='hidden lg:block'>
               <span className='font-bold '>Project Name:</span> Car Doctor
@@ -36,7 +36,7 @@ const CarDoctor = () => {
           </div>
           <Link href="https://car-doctor-2b00a.web.app/" target='_blank'>
             <figure>
-              <Image src={img} alt='Apex' width={800} />
+              <Image className='w-full mx-auto h-[400px]' src={img} alt='Apex' width={800} />
             </figure>
           </Link>
           <div className='lg:p-10 p-3 grid grid-cols-3 lg:grid-cols-5 gap-5 text-center'>
@@ -50,7 +50,7 @@ const CarDoctor = () => {
           </div>
         </div>
       </div>
-      <div className='lg:w-[50%] mt-5 lg:mt-0 lg:mr-10'>
+      {/* <div className='lg:w-[50%] mt-5 lg:mt-0 lg:mr-10'>
       <h2 className='block lg:hidden'>
               <span className='font-bold '>Project Name:</span> Car Doctor
             </h2>
@@ -64,7 +64,7 @@ const CarDoctor = () => {
 Firebase is employed for user registration, login/logout functionality. <br />
 <b>Security:</b>  <br />The website is secured using Json Web Token (JWT) to ensure a safe user experience. <br />
 <b>DataStore:</b> <br />MongoDB is utilized to store all relevant data, ensuring efficient data management.</h4>
-           </div>
+           </div> */}
     </div>
         </div>
     );

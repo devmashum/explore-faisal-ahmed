@@ -13,11 +13,9 @@ const Header = () => {
        
       <div className='flex items-center justify-center gap-10'>
       <div className='w-[70%] text-end'>
-         <h1 className='text-[50px] leading-none'>MY NAME IS <br /> <span className='font-bold '>FAISAL AHMED...</span></h1>
-            <h3 className=' font-semibold text-xl'>Frontend Developer based in Berlin</h3>
-            <p className='text-base font-semibold'>Crafting outstanding and user-friendly digital
-experiences for the web is my passion.</p>
-<p className='mt-2'>I am a front-end web developer. I love using my creativity to make something new. That is why I enjoy working with React.js, Tailwind, JavaScript, and other web technologies. Over the last year, I have gathered knowledge in various parts of web development on my own. I have also attended two web developer bootcamps to further extend my knowledge in the web technology field. My ultimate goal is to become an awesome full-stack web developer who can create beautiful UIs and also handle the back-end smoothly. 🚀
+         <h1 className='text-[50px] leading-none'>Über mich</h1>
+            
+<p className='mt-2'>Mein Name ist Faisal Ahmed. Ich bin ein Front-End-Webentwickler. Ich liebe es, meine Kreativität einzusetzen, um etwas Neues zu schaffen. Deshalb arbeite ich gerne mit React.js, Tailwind, JavaScript und anderen Webtechnologien. Im Laufe des letzten Jahres habe ich eigenständig Wissen in verschiedenen Bereichen der Webentwicklung gesammelt. Zudem habe ich an zwei Webentwickler-Bootcamps teilgenommen, um mein Wissen im Bereich der Webtechnologie weiter auszubauen. Mein ultimatives Ziel ist es, ein beeindruckender Full-Stack-Webentwickler zu werden, der schöne Benutzeroberflächen erstellen und gleichzeitig das Back-End reibungslos handhaben kann. 🚀
 </p>
 
            

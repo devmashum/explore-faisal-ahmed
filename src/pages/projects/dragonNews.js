@@ -6,9 +6,9 @@ import img from '../../assets/dragonNews.png';
 const DragonNews = () => {
     return (
         <div>
-              <div className='lg:flex p-10'>
-      <div className='lg:w-[50%]'>
-        <div className='card bg-base-100 shadow-xl'>
+              <div className='mt-10'>
+      <div className=''>
+        <div className='card bg-base-100 shadow-xl rounded-3xl'>
           <div className='flex justify-between'>
           <h2 className='hidden lg:block'>
               <span className='font-bold '>Project Name:</span> Dragon News
@@ -36,10 +36,10 @@ const DragonNews = () => {
           </div>
           <Link href="https://the-dragon-news-alpha.vercel.app/" target='_blank'>
             <figure>
-              <Image src={img} alt='Apex' width={800} />
+              <Image className='w-full mx-auto lg:h-[350px]' src={img} alt='Apex' width={800} />
             </figure>
           </Link>
-          <div className='lg:p-10 p-3 grid grid-cols-3 lg:grid-cols-5 gap-5 text-center'>
+          <div className='lg:p-10 p-3 grid grid-cols-3 lg:grid-cols-4 gap-5 text-center'>
            
             <h2 className='border border-xl border-black'>JavaScript</h2>
             <h2 className='border border-xl border-black'>React</h2>
@@ -48,9 +48,15 @@ const DragonNews = () => {
             <h2 className='border border-xl border-black'>Firebase</h2>
             <h2 className='border border-xl border-black'>JWT</h2>
           </div>
+          <div className='w-9/12 mx-auto text-center'>
+              <button className='lg:px-20 px-2 py-2 btn btn-primary bg-slate-400 text-white lg:text-xl rounded-xl mt-5'>Project Details</button>
+              </div>
+              <br />
+              <br />
         </div>
+        
       </div>
-      <div className='lg:w-[50%] mt-5 lg:mt-0 lg:ml-10'>
+      {/* <div className='lg:w-[50%] mt-5 lg:mt-0 lg:ml-10'>
       <h2 className='block lg:hidden'>
               <span className='font-bold '>Project Name:</span> Dragon News
             </h2>
@@ -68,7 +74,7 @@ const DragonNews = () => {
               <b>Article Display:</b> <br /> Presenting news articles with features such as headlines, images, and summaries. <br />
               <b>Category Navigation:</b> <br /> Organizing news articles into categories for easy navigation and user convenience. <br /></h4>
        
-      </div>
+      </div> */}
     </div>
         </div>
     );
