@@ -36,7 +36,7 @@ const DragonNews = () => {
           </div>
           <Link href="https://the-dragon-news-alpha.vercel.app/" target='_blank'>
             <figure>
-              <Image className='w-full mx-auto lg:h-[350px]' src={img} alt='Apex' width={800} />
+              <Image className='w-full mx-auto lg:h-[350px] mt-5' src={img} alt='Apex' width={800} />
             </figure>
           </Link>
           <div className='lg:p-10 p-3 grid grid-cols-3 lg:grid-cols-4 gap-5 text-center'>

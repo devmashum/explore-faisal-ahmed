@@ -9,7 +9,7 @@ const Projects = () => {
     return (
       <div>
       <h1 className='pl-10 text-3xl uppercase font-semibold my-5'>Recent Projects:</h1>
-     <div className='lg:grid grid-cols-2 px-10 gap-5'>
+     <div className='lg:grid grid-cols-2 px-10 gap-10'>
      <ApexArtistry></ApexArtistry>
         <CarDoctor></CarDoctor>
         <DragonNews></DragonNews>

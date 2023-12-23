@@ -5,13 +5,14 @@ import img from '../../assets/apexArtistry.png';
 
 const ApexArtistry = () => {
   return (
-    <div className=''>
+    <div className='mt-10'>
       <div className=''>
-        <div className='card bg-base-100 shadow-xl rounded-3xl'>
-          <div className='flex justify-between'>
+       <div className='card bg-base-100 shadow-xl rounded-3xl'>
+                  <div className='flex justify-between'>
             <h2 className='hidden lg:block'>
-              <span className='font-bold '>Project Name:</span> Apex Artistry
+              <span className='font-bold '><span>Project Name:</span></span> Apex Artistry
             </h2>
+            
             <div className='flex gap-3'>
               <Link href='https://github.com/devmashum/ApexArtisty-Client' target='_blank'>
                 <div className='flex gap-1 justify-center items-center'>
@@ -31,13 +32,15 @@ const ApexArtistry = () => {
                   <FaExternalLinkAlt />
                 </div>
               </Link>
-            </div>
+                           </div>
+            
           </div>
+       
 
-          
+        
           <Link href='https://apexartistry-47b43.web.app/' target='_blank'>
             <figure>
-              <Image className='w-full h-[400px] mx-auto' src={img}  alt='Apex' width={800} style="transform: translateY(0%); transition: transform 10s ease-in-out 0s;" />
+            <Image className='w-full lg:h-[400px] mx-auto mt-5' src={img}  alt='Apex' width={800} style="transform: translateY(0%); transition: transform 10s ease-in-out 0s;" />
             </figure>
           </Link>
           <div className='lg:p-10 grid grid-cols-3 lg:grid-cols-5 lg:gap-5 gap-2 text-center'>
@@ -51,6 +54,11 @@ const ApexArtistry = () => {
             <h2 className='border border-xl border-black'>JWT</h2>
             <h2 className='border border-xl border-black'>Stripe</h2>
           </div>
+          <div className='w-9/12 mx-auto text-center'>
+              <button className='lg:px-20 px-2 py-2 btn btn-primary bg-slate-400 text-white lg:text-xl rounded-xl mt-5 lg:mb-2'>Project Details</button>
+              </div>
+              <br />
+              <br />
         </div>
       </div>
       {/* <div className='lg:w-[50%] mt-5 lg:mt-0 lg:ml-10'>

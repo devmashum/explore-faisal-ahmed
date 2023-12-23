@@ -23,7 +23,7 @@ const Kioko = () => {
             </div>
             <a href="https://kioko-sushi.de/" target='_blank'>
               <figure>
-                <Image className='mx-auto w-full lg:h-[350px]' src={img} alt='Kioko Sushi GmbH' width={800} />
+                <Image className='mx-auto w-full lg:h-[350px] mt-5' src={img} alt='Kioko Sushi GmbH' width={800} />
               </figure>
             </a>
             <div className='lg:p-10 p-3 grid grid-cols-3 gap-3 lg:grid-cols-3 text-center mx-auto'>

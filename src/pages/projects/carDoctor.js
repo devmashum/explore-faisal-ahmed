@@ -6,7 +6,7 @@ import img from '../../assets/car-doctor.png';
 const CarDoctor = () => {
     return (
         <div>
-         <div className=''>
+         <div className='mt-10'>
       <div className=''>
         <div className='card bg-base-100 shadow-xl rounded-3xl'>
           <div className='flex justify-between'>
@@ -36,7 +36,7 @@ const CarDoctor = () => {
           </div>
           <Link href="https://car-doctor-2b00a.web.app/" target='_blank'>
             <figure>
-              <Image className='w-full mx-auto h-[400px]' src={img} alt='Apex' width={800} />
+              <Image className='w-full mx-auto lg:h-[400px] mt-5' src={img} alt='Apex' width={800} />
             </figure>
           </Link>
           <div className='lg:p-10 p-3 grid grid-cols-3 lg:grid-cols-5 gap-5 text-center'>
@@ -48,6 +48,11 @@ const CarDoctor = () => {
             <h2 className='border border-xl border-black'>Firebase</h2>
             <h2 className='border border-xl border-black'>JWT</h2>
           </div>
+          <div className='w-9/12 mx-auto text-center'>
+              <button className='lg:px-20 px-2 py-2 btn btn-primary bg-slate-400 text-white lg:text-xl rounded-xl mt-5 lg:mb-2'>Project Details</button>
+              </div>
+              <br />
+              <br />
         </div>
       </div>
       {/* <div className='lg:w-[50%] mt-5 lg:mt-0 lg:mr-10'>
