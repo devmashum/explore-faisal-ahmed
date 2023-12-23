@@ -12,7 +12,7 @@ module.exports = {
         'serif': ['ui-serif', 'Georgia', 'serif'],
         'mono': ['ui-monospace', 'SFMono-Regular', 'monospace'],
   
-        'display': ['Rowdies'],
+        'display': ['Satisfy'],
         'body': ['Open Sans', 'sans-serif'],
       },
       backgroundImage: {
