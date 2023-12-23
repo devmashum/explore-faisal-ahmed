@@ -16,7 +16,7 @@ const MobileHeader = () => {
         <div className='lg:hidden block p-5 bg-slate-100'>
                     <div>
                     <Image className='relative  mt-7 w-[300px] mx-auto' src={img} alt='Portfolio'></Image>
-            <div className='grid grid-cols-3 gap-5 ml-[80px] text-center absolute -mt-10'>
+            <div className='grid grid-cols-3 gap-5 ml-[100px] text-center absolute -mt-10'>
           <a href="https://www.linkedin.com/in/faisal-ahmed-mashum/" target='_blank'><LinkedInIcon/></a> 
         <a href="https://github.com/devmashum" target='_blank'><GitHubIcon/></a>   
         <a href="mailto:dev.mashum@gmail.com"><EmailIcon/>
