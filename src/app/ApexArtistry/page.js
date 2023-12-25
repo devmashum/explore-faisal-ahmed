@@ -6,12 +6,12 @@ import Apex from '../../assets/apexArtistry.png'
 const ApexArtistry = () => {
     return (
         <div>
-            <Image className='w-full object-cover' src={Apex} width={800}/>
+            <Image className='w-full  lg:h-[600px]' src={Apex} width={800} alt='Apex'/>
 
             <div className='p-5'>
           <div className='flex gap-3'>
-            <div><h3 className='text-slate-900 text-2xl'>Project Title: </h3></div>
-            <div><h2 className="text-slate-900 font-bold text-2xl">
+            <div><h3 className='text-slate-900 text-xl lg:text-2xl'>Project Title: </h3></div>
+            <div><h2 className="text-slate-900 font-bold text-xl lg:text-2xl">
             Apex Artistry</h2>
             </div>
             </div>
@@ -32,7 +32,7 @@ Password (same for all users): 123456
 <br />
 1. Normal User: A normal user can select an art and donate using the Card Payment method. In the normal user dashboard, users can check their profile, cart, donated contests, and payment history. <br/>
 <br />
-2. Creator: A creator can add art by clicking "Add Contest." They can check their submitted contests and verify whether they won a contest or not. If they also donated for an art, they can check their payment history. <br/>
+2. Creator: A creator can add art by clicking Add Contest. They can check their submitted contests and verify whether they won a contest or not. If they also donated for an art, they can check their payment history. <br/>
 <br />
 3. Admin: An admin can manage all users, including making a normal user a creator. If necessary, the admin can delete a user. They can also declare a creator as a winner. The admin has access to the support section, displaying all contact data.
 <br /> <br />
