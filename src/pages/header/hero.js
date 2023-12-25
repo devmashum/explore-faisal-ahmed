@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <div>
        
-          <Image className= 'w-full lg:min-h-screen lg:-mt-40' src={heroImg} alt='hero'/>
+          <Image className= 'w-full lg:-mt-40' src={heroImg} alt='hero'/>
 </div>
      
      
