@@ -11,30 +11,51 @@ const DragonNews = () => {
 
             <div className='p-5'>
           <div className='flex gap-3'>
-            <div><h3 className=' text-slate-900 text-xl lg:text-2xl'>Project Title: </h3></div>
+            <div><h3 className=' text-slate-900 text-xl lg:text-2xl'>Projekttitel: </h3></div>
             <div><h2 className="text-slate-900 text-xl lg:text-2xl font-bold ">
             Car Doctor</h2>
             </div>
             </div>
-            <h3 className="text-slate-900 text-base font-bold mt-3">Project Details:</h3>
+            <h3 className="text-slate-900 text-base font-bold mt-3">Projektdetails:</h3>
             <h4 className="text-slate-900 my-3 text-justify text-base">
-            Car Doctor is an online platform providing car repair services to customers. Customers can book a service by specifying the service name and preferred date. In the shop section, customers can explore and purchase available products. Additionally, a contact page is included to facilitate easy communication with the company. <br />
+            Ich befinde mich derzeit im Prozess des Lernens von Next.js und Material-UI, und als Teil dieser Erkundung habe ich ein Online-Zeitungsportal mit Next.js und Material-UI entwickelt, wobei MongoDB als Datenbank dient. <br />
 <br/>
-<b>Functionality:</b>
+<b>Hauptmerkmale:</b>
 <br />
-<b>User Authentication: </b> <br />
-Firebase is employed for user registration, login/logout functionality. <br />
-<b>Security:</b>  <br />The website is secured using Json Web Token (JWT) to ensure a safe user experience. <br />
-<b>DataStore:</b> <br />MongoDB is utilized to store all relevant data, ensuring efficient data management.
+<br />
+<div>
+<b>Artikelanzeige:</b>
+<br />
+Präsentation von Nachrichtenartikeln mit Funktionen wie Überschriften, Bildern und Zusammenfassungen.
+<br />
+<b>Kategorienavigation:</b> <br />
+
+Organisation von Nachrichtenartikeln in Kategorien für einfache Navigation und Benutzerfreundlichkeit.
+<br />
+<b>Responsive Design:</b> <br />
+Gewährleistung einer nahtlosen Benutzererfahrung auf verschiedenen Geräten, einschließlich Desktops, Tablets und Smartphones. <br />
+<b>Dynamisches Routing:</b> <br />
+Nutzung von Next.js dynamischem Routing für effiziente Bearbeitung unterschiedlicher Seiten und Inhalte. <br />
+<b>Neueste Nachrichten-Sektion:</b> Präsentation der neuesten und trendigen Nachrichten prominent auf der Startseite.
+<br />
+
+<b>Benutzerauthentifizierung:</b>
+Firebase wird für die Benutzerregistrierung sowie die An- und Abmeldungs-Funktionalität verwendet.
+<br />
+<b>Sicherheit:</b> Die Website ist durch die Verwendung von JSON Web Token (JWT) abgesichert, um eine sichere Benutzererfahrung zu gewährleisten.
+<br />
+<b>Datenspeicher:</b>
+MongoDB wird genutzt, um alle relevanten Daten zu speichern und eine effiziente Datenverwaltung sicherzustellen.
+</div>
+
             </h4>
-            <div className="grid grid-cols-3 gap-5">
-            <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">JavaScript</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">React</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">Tailwind</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">DaisyUi</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">MongoDb</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">Firebase</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">JWT</button>
+            <div className="grid lg:grid-cols-3 grid-cols-2 gap-5 text-center">
+            <h2 className='border border-xl border-black'>JavaScript</h2>
+            <h2 className='border border-xl border-black'>React</h2>
+            <h2 className='border border-xl border-black'>DaisyUi</h2>
+            <h2 className='border border-xl border-black'>MongoDB</h2>
+            <h2 className='border border-xl border-black'>Firebase</h2>
+            <h2 className='border border-xl border-black'>JWT</h2>
             </div>
           </div>
         </div>
