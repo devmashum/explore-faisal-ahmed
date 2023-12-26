@@ -11,7 +11,7 @@ const CarDoctor = () => {
         <div className='card bg-base-100 shadow-xl rounded-3xl'>
           <div className='flex justify-between'>
           <h2 className='hidden lg:block'>
-              <span className='font-bold '>Project Name:</span> Car Doctor
+              <span className='font-bold '>Projektname:</span> Car Doctor
             </h2>
             <div className='flex gap-3'>
               <Link href="https://github.com/devmashum/car-doctor-client" target='_blank'>
@@ -49,7 +49,7 @@ const CarDoctor = () => {
             <h2 className='border border-xl border-black'>JWT</h2>
           </div>
           <div className='w-9/12 mx-auto text-center'>
-          <Link href='/CarDoctor' target='_blank'> <button className='lg:px-20 px-2 py-2 btn btn-primary bg-[#d9d9d9]  lg:text-xl rounded-xl mt-5 lg:mb-2'>Project Details</button></Link>
+          <Link href='/CarDoctor' target='_blank'> <button className='lg:px-20 px-2 py-2 btn btn-primary bg-[#d9d9d9]  lg:text-xl rounded-xl mt-5 lg:mb-2'>Projektdetails</button></Link>
               </div>
               <br />
               <br />
