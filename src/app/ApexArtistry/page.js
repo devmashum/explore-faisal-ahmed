@@ -49,21 +49,41 @@ Firebase wird für die Benutzerregistrierung sowie die An- und Abmeldungs-Funkti
 <br />
 <b>Datenspeicher:</b>
 MongoDB wird genutzt, um alle relevanten Daten zu speichern und eine effiziente Datenverwaltung sicherzustellen.
+<br /> <br />
+<div>
+<b>Funktionalität:</b> Um die Funktionalität zu testen, melden Sie sich bitte mit den folgenden Anmeldedaten an: <br />
+
+<b>Als Benutzer:</b> user@gmail.com <br />
+<b>Als Creator:</b> creator@gmail.com <br />
+<b>Als Administrator:</b> admin@gmail.com <br />
+<b>Passwort</b> (gleich für alle Benutzer): 123456 <br />
+<br />
+<b>Dashboard:</b> Ich habe ein Dashboard für drei Arten von Benutzern erstellt. <br />
+
+<b>Normaler Benutzer:</b> Ein normaler Benutzer kann ein Kunstwerk auswählen und über die Zahlungsmethode <b>Card Payment </b>spenden. Im Dashboard für normale Benutzer können sie ihr Profil, den Warenkorb, gespendete Wettbewerbe und die Zahlungshistorie überprüfen. <br /> 
+<br />
+<b>Kunstler:</b> Ein Creator kann ein Kunstwerk hinzufügen, indem er auf <b>Contest hinzufügen</b> klickt. Sie können ihre eingereichten Wettbewerbe überprüfen und feststellen, ob sie einen Wettbewerb gewonnen haben oder nicht. Wenn sie auch für ein Kunstwerk gespendet haben, können sie ihre Zahlungshistorie überprüfen. <br />
+<br />
+<b>Administrator:</b> Ein Administrator kann alle Benutzer verwalten, einschließlich der Befugnis, einen normalen Benutzer zu einem Creator zu machen. Bei Bedarf kann der Administrator einen Benutzer löschen. Sie können auch einen Creator als Gewinner erklären. Der Administrator hat Zugriff auf den Support-Bereich, der alle Kontaktinformationen anzeigt.
+</div>
+
 </div>
 
 
 
  
             </h4>
-            <div className="grid grid-cols-3 gap-5">
-            <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">JavaScript</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">React</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">Tailwind</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">DaisyUi</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">MongoDb</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">Firebase</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">JWT</button>
-            </div>
+            <div className='lg:p-10 grid grid-cols-3 lg:grid-cols-5 lg:gap-5 gap-2 text-center'>
+            <h2 className='border border-xl border-black text-sm lg:text-base'>HTML</h2>
+            <h2 className='border border-xl border-black'>CSS</h2>
+                      <h2 className='border border-xl border-black'>JavaScript</h2>
+            <h2 className='border border-xl border-black'>React</h2>
+            <h2 className='border border-xl border-black'>DaisyUi</h2>
+            <h2 className='border border-xl border-black'>MongoDB</h2>
+            <h2 className='border border-xl border-black'>Firebase</h2>
+            <h2 className='border border-xl border-black'>JWT</h2>
+            <h2 className='border border-xl border-black'>Stripe</h2>
+          </div>
           </div>
         </div>
     );
