@@ -10,37 +10,46 @@ const ApexArtistry = () => {
 
             <div className='p-5'>
           <div className='flex gap-3'>
-            <div><h3 className='text-slate-900 text-xl lg:text-2xl'>Project Title: </h3></div>
+            <div><h3 className='text-slate-900 text-xl lg:text-2xl'>Projekname: </h3></div>
             <div><h2 className="text-slate-900 font-bold text-xl lg:text-2xl">
             Apex Artistry</h2>
             </div>
             </div>
-            <h3 className="text-slate-900 text-base font-bold mt-3">Project Details:</h3>
+            <h3 className="text-slate-900 text-base font-bold mt-3">Projektdetails:</h3>
             <h4 className="text-slate-900 my-3  text-justify text-base">
           
-<p>ApexArtistry is a dynamic, responsive platform enabling users to support artists through donations. Users aspiring to be creators can request admin approval to submit artworks for contests. Winners receive prizes, while non-winners receive donated amounts after platform charges.</p> <br />
+<p>ApexArtistry ist eine dynamische, reaktionsfähige Plattform, die es Benutzern ermöglicht, Künstler durch Spenden zu unterstützen. Benutzer, die selbst kreativ tätig werden möchten, können eine Genehmigung vom Administrator beantragen, um Kunstwerke für Wettbewerbe einzureichen. Gewinner erhalten Preise, während Nicht-Gewinner die gespendeten Beträge nach Abzug von Plattformgebühren erhalten.</p> <br />
 
-<b>Functionality:</b> <br />
-To test the functionality, please log in with the following credentials: <br />
-- As a User: user@gmail.com <br />
-- As a Creator: creator@gmail.com <br/>
-- As an Admin: admin@gmail.com <br/>
-Password (same for all users): 123456
+<b>Hauptmerkmale:</b>
 <br />
 <br />
-<b>Dashboard:</b> I have created a dashboard for three types of users. <br/>
+<div>
+<b>Artikelanzeige:</b>
 <br />
-1. Normal User: A normal user can select an art and donate using the Card Payment method. In the normal user dashboard, users can check their profile, cart, donated contests, and payment history. <br/>
+Präsentation verschiedener Kunstwerke von Künstlern mit Funktionen wie Gewöhnung oder Bearbeitung, Bildern, Zusammenfassungen und Preisen.
 <br />
-2. Creator: A creator can add art by clicking Add Contest. They can check their submitted contests and verify whether they won a contest or not. If they also donated for an art, they can check their payment history. <br/>
-<br />
-3. Admin: An admin can manage all users, including making a normal user a creator. If necessary, the admin can delete a user. They can also declare a creator as a winner. The admin has access to the support section, displaying all contact data.
-<br /> <br />
-<b>User Authentication:</b> For user registration, user login/logout system, I have utilized Firebase. <br />
-<b>Security:</b> I have secured this website using Json Web Token (JWT). <br/>
 
-<b>Payment:</b> The most popular payment method, Stripe, is implemented for the payment process. <br/>
-<b>DataStore:</b> To store all data, I have used MongoDB.
+<b>Responsive Design:</b> <br />
+Gewährleistung einer nahtlosen Benutzererfahrung auf verschiedenen Geräten, einschließlich Desktops, Tablets und Smartphones. <br />
+<b>Dynamisches Routing:</b> <br />
+Nutzung von React.js dynamischem Routing für die effiziente Bearbeitung unterschiedlicher Seiten und Inhalte. <br />
+
+<b>Details Section:</b> Bei Klicken des Details-Buttons können Benutzer Informationen zu einem Kunstwerk lesen, den Preis sehen und spenden.
+<br />
+<b>Bezahlungsmöglichkeiten:</b> Ein Benutzer kann direkt mit seiner Kredit- oder Visakarte spenden.
+<br />
+<b>Kunstler werden:</b> Ein normaler Benutzer kann auch als Künstler seine Kunst in diesem Platform veröffentlichen. Dafür muss er/sie eine E-Mail an den Administrator schreiben, dass er/sie als Künstler Zugang benötigt. Dann kann der Administrator in seinem Dashboard den Zugang gewähren.
+<br />
+
+
+<b>Benutzerauthentifizierung:</b>
+Firebase wird für die Benutzerregistrierung sowie die An- und Abmeldungs-Funktionalität verwendet.
+<br />
+<b>Sicherheit:</b> Die Website ist durch die Verwendung von JSON Web Token (JWT) abgesichert, um eine sichere Benutzererfahrung zu gewährleisten.
+<br />
+<b>Datenspeicher:</b>
+MongoDB wird genutzt, um alle relevanten Daten zu speichern und eine effiziente Datenverwaltung sicherzustellen.
+</div>
 
 
 
