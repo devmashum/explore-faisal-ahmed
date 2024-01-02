@@ -15,14 +15,23 @@ const ApexArtistry = () => {
             Apex Artistry</h2>
             </div>
             </div>
-            <h3 className="text-slate-900 text-base font-bold mt-3">Projektdetails:</h3>
+            <h3 className="text-slate-900 text-xl font-bold mt-3">Projektdetails:</h3>
             <h4 className="text-slate-900 my-3  text-justify text-base">
           
 <p>ApexArtistry ist eine dynamische, reaktionsfähige Plattform, die es Benutzern ermöglicht, Künstler durch Spenden zu unterstützen. Benutzer, die selbst kreativ tätig werden möchten, können eine Genehmigung vom Administrator beantragen, um Kunstwerke für Wettbewerbe einzureichen. Gewinner erhalten Preise, während Nicht-Gewinner die gespendeten Beträge nach Abzug von Plattformgebühren erhalten.</p> <br />
 
-<b>Hauptmerkmale:</b>
+<b className='text-xl'>Hauptmerkmale:</b>
 <br />
 <br />
+<div>
+<b>Registrierung, Anmeldung und Profile:</b> <br />
+
+- Benutzer können als Gäste Konten erstellen.
+Profilerstellung mit E-Mail, Namen und Passwort. <br />
+- Registrierte Benutzer können sich mit ihren Anmeldedaten einloggen. <br />
+- Anmeldung mit Google-Popup-Funktion. <br />
+- Sicherung mit JWT (Speichern des Tokens in einem Browser-Cookie).
+</div>
 <div>
 <b>Artikelanzeige:</b>
 <br />
@@ -51,7 +60,7 @@ Firebase wird für die Benutzerregistrierung sowie die An- und Abmeldungs-Funkti
 MongoDB wird genutzt, um alle relevanten Daten zu speichern und eine effiziente Datenverwaltung sicherzustellen.
 <br /> <br />
 <div>
-<b>Funktionalität:</b> Um die Funktionalität zu testen, melden Sie sich bitte mit den folgenden Anmeldedaten an: <br />
+<b className='text-xl'>Funktionalität:</b> Um die Funktionalität zu testen, melden Sie sich bitte mit den folgenden Anmeldedaten an: <br />
 
 <b>Als Benutzer:</b> user@gmail.com <br />
 <b>Als Creator:</b> creator@gmail.com <br />
