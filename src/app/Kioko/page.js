@@ -30,12 +30,12 @@ Diese Website ist eine voll funktionsfähige Website mit E-Commerce-Funktionalit
 <b>Online-Bestellung:</b> <br />Kunden können ihr Essen online bestellen, um es zu Hause zu genießen oder es im Restaurant abzuholen. Diese Funktion für die Online-Bestellung ermöglicht es Kunden, unser umfangreiches Menü zu erkunden, eine Bestellung aufzugeben und auszuwählen, ob sie es geliefert haben möchten oder zum Mitnehmen.
 </div>
             </h4>
-            <div className="grid grid-cols-3 gap-5">
-            <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">HTML</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">CSS</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">WORDPRESS</button>
-              
-            </div>
+            <div className='lg:p-10 grid grid-cols-3 lg:grid-cols-5 lg:gap-5 gap-2 text-center'>
+            <h2 className='border border-xl border-black text-sm lg:text-base'>HTML</h2>
+            <h2 className='border border-xl border-black'>CSS</h2>
+                      <h2 className='border border-xl border-black'>WORDPRESS</h2>
+           
+          </div>
           </div>
         </div>
         </div>

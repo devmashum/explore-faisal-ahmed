@@ -51,11 +51,10 @@ MongoDB wird genutzt, um alle relevanten Daten zu speichern und eine effiziente 
             </h4>
             <div className="grid lg:grid-cols-3 grid-cols-2 gap-5 text-center">
             <h2 className='border border-xl border-black'>JavaScript</h2>
-            <h2 className='border border-xl border-black'>React</h2>
+            <h2 className='border border-xl border-black'>Next.js</h2>
             <h2 className='border border-xl border-black'>DaisyUi</h2>
             <h2 className='border border-xl border-black'>MongoDB</h2>
-            <h2 className='border border-xl border-black'>Firebase</h2>
-            <h2 className='border border-xl border-black'>JWT</h2>
+      
             </div>
           </div>
         </div>

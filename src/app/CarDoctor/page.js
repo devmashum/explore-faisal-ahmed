@@ -26,15 +26,16 @@ Firebase is employed for user registration, login/logout functionality. <br />
 <b>Security:</b>  <br />The website is secured using Json Web Token (JWT) to ensure a safe user experience. <br />
 <b>DataStore:</b> <br />MongoDB is utilized to store all relevant data, ensuring efficient data management.
             </h4>
-            <div className="grid grid-cols-3 gap-5">
-            <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">JavaScript</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">React</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">Tailwind</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">DaisyUi</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">MongoDb</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">Firebase</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">JWT</button>
-            </div>
+            <div className='lg:p-10 grid grid-cols-3 lg:grid-cols-5 lg:gap-5 gap-2 text-center'>
+            
+                      <h2 className='border border-xl border-black'>JavaScript</h2>
+            <h2 className='border border-xl border-black'>React</h2>
+            <h2 className='border border-xl border-black'>DaisyUi</h2>
+            <h2 className='border border-xl border-black'>MongoDB</h2>
+            <h2 className='border border-xl border-black'>Firebase</h2>
+            <h2 className='border border-xl border-black'>JWT</h2>
+            
+          </div>
           </div>
         </div>
         </div>
