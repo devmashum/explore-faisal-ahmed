@@ -15,28 +15,26 @@ const Kioko = () => {
           <div className='flex gap-3'>
             <div><h3 className=' text-slate-900 text-xl lg:text-2xl'>Project Title: </h3></div>
             <div><h2 className="text-slate-900 text-xl lg:text-2xl font-bold ">
-            Car Doctor</h2>
+            Kioko Sushi</h2>
             </div>
             </div>
-            <h3 className="text-slate-900 text-base font-bold mt-3">Project Details:</h3>
+            <h3 className="text-slate-900 text-xl font-bold mt-3">Project Details:</h3>
             <h4 className="text-slate-900 my-3 text-justify text-base">
-            Car Doctor is an online platform providing car repair services to customers. Customers can book a service by specifying the service name and preferred date. In the shop section, customers can explore and purchase available products. Additionally, a contact page is included to facilitate easy communication with the company. <br />
+            
+Diese Website ist eine voll funktionsfähige Website mit E-Commerce-Funktionalität, entwickelt mit WordPress. Ein Kunde kann jedes Essen online bestellen und entscheiden, ob er es selbst im Restaurant abholen möchte.<br />
 <br/>
-<b>Functionality:</b>
+<div>
+<b>Tischreservierungen vor Ort:</b> <br />Kunden können ganz einfach über diese benutzerfreundliche Website einen Tisch reservieren. Sie können ihr gewünschtes Datum und die Uhrzeit auswählen und die Anzahl der Gäste angeben.
 <br />
-<b>User Authentication: </b> <br />
-Firebase is employed for user registration, login/logout functionality. <br />
-<b>Security:</b>  <br />The website is secured using Json Web Token (JWT) to ensure a safe user experience. <br />
-<b>DataStore:</b> <br />MongoDB is utilized to store all relevant data, ensuring efficient data management.
+<br />
+<b>Online-Bestellung:</b> <br />Kunden können ihr Essen online bestellen, um es zu Hause zu genießen oder es im Restaurant abzuholen. Diese Funktion für die Online-Bestellung ermöglicht es Kunden, unser umfangreiches Menü zu erkunden, eine Bestellung aufzugeben und auszuwählen, ob sie es geliefert haben möchten oder zum Mitnehmen.
+</div>
             </h4>
             <div className="grid grid-cols-3 gap-5">
-            <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">JavaScript</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">React</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">Tailwind</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">DaisyUi</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">MongoDb</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">Firebase</button>
-              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">JWT</button>
+            <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">HTML</button>
+              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">CSS</button>
+              <button className="btn btn-sm px-10 hover:bg-blue-700 bg-blue-500 btn-outline text-white">WORDPRESS</button>
+              
             </div>
           </div>
         </div>

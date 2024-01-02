@@ -13,7 +13,7 @@ const DragonNews = () => {
           <div className='flex gap-3'>
             <div><h3 className=' text-slate-900 text-xl lg:text-2xl'>Projekttitel: </h3></div>
             <div><h2 className="text-slate-900 text-xl lg:text-2xl font-bold ">
-            Car Doctor</h2>
+            The Dragon News</h2>
             </div>
             </div>
             <h3 className="text-slate-900 text-base font-bold mt-3">Projektdetails:</h3>
