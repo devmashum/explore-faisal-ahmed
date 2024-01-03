@@ -13,12 +13,12 @@ const Kioko = () => {
 
             <div className='p-5'>
           <div className='flex gap-3'>
-            <div><h3 className=' text-slate-900 text-xl lg:text-2xl'>Project Title: </h3></div>
+            <div><h3 className=' text-slate-900 text-xl lg:text-2xl'>Projekttitle: </h3></div>
             <div><h2 className="text-slate-900 text-xl lg:text-2xl font-bold ">
             Kioko Sushi</h2>
             </div>
             </div>
-            <h3 className="text-slate-900 text-xl font-bold mt-3">Project Details:</h3>
+            <h3 className="text-slate-900 text-xl font-bold mt-3">Projektdetails:</h3>
             <h4 className="text-slate-900 my-3 text-justify text-base">
             
 Diese Website ist eine voll funktionsfähige Website mit E-Commerce-Funktionalität, entwickelt mit WordPress. Ein Kunde kann jedes Essen online bestellen und entscheiden, ob er es selbst im Restaurant abholen möchte.<br />

@@ -31,10 +31,12 @@ const Kioko = () => {
               <h2 className='border border-xl border-black text-xs lg:text-base'>HTML</h2>
               <h2 className='border border-xl border-black text-xs lg:text-base'>CSS</h2>
               <h2 className='border border-xl border-black text-xs lg:text-base'>WORDPRESS</h2>
-              <h2 className='border border-xl border-white text-white '>WORDPRESS</h2>                            
+                                       
               </div>
               <div className='w-9/12 mx-auto text-center'>
               <Link href='/Kioko' target='_blank'> <button className='lg:px-20 px-2 py-2 btn btn-primary bg-[#d9d9d9]  lg:text-xl rounded-xl mt-5 lg:mb-2'>Projektdetails</button></Link>
+            
+
               </div>
               <br />
               <br />
