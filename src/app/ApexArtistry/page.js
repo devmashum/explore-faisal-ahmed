@@ -2,11 +2,12 @@ import Image from 'next/image';
 import React from 'react';
 
 import Apex from '../../assets/apexArtistry.png'
+import Link from 'next/link';
 
 const ApexArtistry = () => {
     return (
         <div>
-            <Image className='w-full  lg:h-[600px]' src={Apex} width={800} alt='Apex'/>
+            <Link href={'https://apexartistry-47b43.web.app/'} target='_blank'><Image className='w-full  lg:h-[600px]' src={Apex} width={800} alt='Apex'/></Link>
 
             <div className='p-5'>
           <div className='flex gap-3'>
@@ -15,12 +16,12 @@ const ApexArtistry = () => {
             Apex Artistry</h2>
             </div>
             </div>
-            <h3 className="text-slate-900 text-xl font-bold mt-3">Projektdetails:</h3>
+            <h3 className="text-slate-900 text-xl font-bold mt-3 underline">Projektdetails:</h3>
             <h4 className="text-slate-900 my-3  text-justify text-base">
           
 <p>ApexArtistry ist eine dynamische, reaktionsfähige Plattform, die es Benutzern ermöglicht, Künstler durch Spenden zu unterstützen. Benutzer, die selbst kreativ tätig werden möchten, können eine Genehmigung vom Administrator beantragen, um Kunstwerke für Wettbewerbe einzureichen. Gewinner erhalten Preise, während Nicht-Gewinner die gespendeten Beträge nach Abzug von Plattformgebühren erhalten.</p> <br />
 
-<b className='text-xl'>Hauptmerkmale:</b>
+<b className='text-xl underline'>Hauptmerkmale:</b>
 <br />
 <br />
 <div>
@@ -87,7 +88,8 @@ const ApexArtistry = () => {
 </ul>
 <br /> <br />
 <div>
-<b className='text-xl'>Funktionalität:</b> 
+<b className='text-xl underline'>Funktionalität:</b> 
+<br /> <br />
 <ul>
   <li>
   Um die Funktionalität zu testen, melden Sie sich bitte mit den folgenden Anmeldedaten an:
@@ -99,7 +101,9 @@ const ApexArtistry = () => {
 <b>Als Administrator:</b> admin@gmail.com <br />
 <b>Passwort</b> (gleich für alle Benutzer): 123456 <br />
 <br />
-<b className='text-xl'>Dashboard:</b> 
+<b className='text-xl underline'>Dashboard:</b> 
+<br />
+<br />
 <ul>
   <li>
   Dashboard für drei Arten von Benutzern erstellt:
@@ -133,15 +137,20 @@ const ApexArtistry = () => {
   <li>
   Bei Bedarf kann der Administrator einen Benutzer löschen
   </li>
+  <li>
+  Sie können auch einen Creator als Gewinner erklären
+  </li>
+  <li>
+  Der Administrator hat Zugriff auf den Support-Bereich, der alle Kontaktinformationen anzeigt
+  </li>
 </ul>
 </div>
 
 </div>
 
-
-
- 
             </h4>
+
+            <h4 className='font-bold'>Technologien, die ich für diese Plattform verwendet habe:</h4>
             <div className='lg:p-10 grid grid-cols-3 lg:grid-cols-5 lg:gap-5 gap-2 text-center'>
             <h2 className='border border-xl border-black text-sm lg:text-base'>HTML</h2>
             <h2 className='border border-xl border-black'>CSS</h2>
