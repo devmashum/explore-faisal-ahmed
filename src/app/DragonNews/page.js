@@ -1,13 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
 import Dragon from '../../assets/dragonNews.png'
+import Link from 'next/link';
 
 const DragonNews = () => {
     return (
         <div>
        <div>
       <div>
-            <Image className='w-full lg:h-[600px]' src={Dragon} width={700} alt='Dragon'/>
+           <Link href={'https://the-dragon-news-alpha.vercel.app/'} target='_blank'> <Image className='w-full lg:h-[600px]' src={Dragon} width={700} alt='Dragon'/></Link>
 
             <div className='p-5'>
           <div className='flex gap-3'>
