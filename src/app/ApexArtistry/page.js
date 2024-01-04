@@ -26,54 +26,114 @@ const ApexArtistry = () => {
 <div>
 <b>Registrierung, Anmeldung und Profile:</b> <br />
 
-- Benutzer können als Gäste Konten erstellen.
-Profilerstellung mit E-Mail, Namen und Passwort. <br />
-- Registrierte Benutzer können sich mit ihren Anmeldedaten einloggen. <br />
-- Anmeldung mit Google-Popup-Funktion. <br />
-- Sicherung mit JWT (Speichern des Tokens in einem Browser-Cookie).
+<ul className='list-disc ml-10'>
+<li>Benutzer können Konten erstellen, d.h. ein Profil erstellen mit E-Mail, Namen und Passwort</li>
+  <li>Registrierte Benutzer können sich mit ihren Anmeldedaten einloggen</li>
+  <li>Anmeldung mit Google-Popup-Funktion</li>
+  <li>Sicherung mit JWT (Speichern des Tokens in einem Browser-Cookie)</li>
+</ul>
 </div>
 <div>
 <b>Artikelanzeige:</b>
 <br />
-Präsentation verschiedener Kunstwerke von Künstlern mit Funktionen wie Gewöhnung oder Bearbeitung, Bildern, Zusammenfassungen und Preisen.
-<br />
+<ul className='list-disc ml-10'>
+<li>Präsentation verschiedener Kunstwerke von Künstlern mit Funktionen wie Gewonnen oder in der Bearbeitung, Bildern, Zusammenfassungen und Preisen</li>
+</ul>
 
 <b>Responsive Design:</b> <br />
-Gewährleistung einer nahtlosen Benutzererfahrung auf verschiedenen Geräten, einschließlich Desktops, Tablets und Smartphones. <br />
+<ul className='list-disc ml-10'>
+  <li>Gewährleistung einer nahtlosen Benutzererfahrung auf verschiedenen Geräten, einschließlich Desktops, Tablets und Smartphones</li>
+</ul> 
 <b>Dynamisches Routing:</b> <br />
-Nutzung von React.js dynamischem Routing für die effiziente Bearbeitung unterschiedlicher Seiten und Inhalte. <br />
+<ul className='list-disc ml-10'>
+  <li>Nutzung von React.js dynamischem Routing für die effiziente Bearbeitung unterschiedlicher Seiten und Inhalte</li>
+</ul> 
 
-<b>Details Section:</b> Bei Klicken des Details-Buttons können Benutzer Informationen zu einem Kunstwerk lesen, den Preis sehen und spenden.
-<br />
-<b>Bezahlungsmöglichkeiten:</b> Ein Benutzer kann direkt mit seiner Kredit- oder Visakarte spenden.
-<br />
-<b>Kunstler werden:</b> Ein normaler Benutzer kann auch als Künstler seine Kunst in diesem Platform veröffentlichen. Dafür muss er/sie eine E-Mail an den Administrator schreiben, dass er/sie als Künstler Zugang benötigt. Dann kann der Administrator in seinem Dashboard den Zugang gewähren.
-<br />
+<b>Details Section:</b> 
+<ul className='list-disc ml-10'>
+  <li>Bei Klicken des Details-Buttons können Benutzer Informationen zu einem Kunstwerk lesen, den Preis sehen und spenden</li>
+</ul>
+<b>Bezahlungsmöglichkeiten:</b> 
+<ul className='list-disc ml-10'>
+  <li>
+  Ein Benutzer kann direkt mit seiner Kredit- oder Visakarte spenden
+  </li>
+</ul>
+
+<b>Kunstler werden:</b> 
+<ul className='list-disc ml-10'>
+  <li>
+  Ein Benutzer kann auch als Künstler seine Kunst in dieser Platform veröffentlichen
+  </li>
+  <li>
+  Dafür muss der Künstler eine E-Mail an den Administrator schreiben, dass er/sie als Künstler Zugang benötigt
+  </li>
+  <li>Danach kann der Administrator in seinem Dashboard den Zugang gewähren
+  </li>
+</ul>
 
 
-<b>Benutzerauthentifizierung:</b>
-Firebase wird für die Benutzerregistrierung sowie die An- und Abmeldungs-Funktionalität verwendet.
-<br />
-<b>Sicherheit:</b> Die Website ist durch die Verwendung von JSON Web Token (JWT) abgesichert, um eine sichere Benutzererfahrung zu gewährleisten.
-<br />
-<b>Datenspeicher:</b>
-MongoDB wird genutzt, um alle relevanten Daten zu speichern und eine effiziente Datenverwaltung sicherzustellen.
+<b>Sicherheit:</b>
+<ul className='list-disc ml-10'>
+  <li>
+  Die Website ist durch die Verwendung von JSON Web Token (JWT) abgesichert, um eine sichere Benutzererfahrung zu gewährleisten
+  </li>
+</ul>
+<b>Datenbank:</b>
+<ul className='list-disc ml-10'>
+  <li>
+  MongoDB wird genutzt, um alle relevanten Daten zu speichern und eine effiziente Datenverwaltung sicherzustellen
+  </li>
+</ul>
 <br /> <br />
 <div>
-<b className='text-xl'>Funktionalität:</b> Um die Funktionalität zu testen, melden Sie sich bitte mit den folgenden Anmeldedaten an: <br />
+<b className='text-xl'>Funktionalität:</b> 
+<ul>
+  <li>
+  Um die Funktionalität zu testen, melden Sie sich bitte mit den folgenden Anmeldedaten an:
+  </li>
+</ul>
 
 <b>Als Benutzer:</b> user@gmail.com <br />
 <b>Als Creator:</b> creator@gmail.com <br />
 <b>Als Administrator:</b> admin@gmail.com <br />
 <b>Passwort</b> (gleich für alle Benutzer): 123456 <br />
 <br />
-<b>Dashboard:</b> Ich habe ein Dashboard für drei Arten von Benutzern erstellt. <br />
+<b className='text-xl'>Dashboard:</b> 
+<ul>
+  <li>
+  Dashboard für drei Arten von Benutzern erstellt:
+  </li>
+</ul>
 
-<b>Normaler Benutzer:</b> Ein normaler Benutzer kann ein Kunstwerk auswählen und über die Zahlungsmethode <b>Card Payment </b>spenden. Im Dashboard für normale Benutzer können sie ihr Profil, den Warenkorb, gespendete Wettbewerbe und die Zahlungshistorie überprüfen. <br /> 
-<br />
-<b>Kunstler:</b> Ein Creator kann ein Kunstwerk hinzufügen, indem er auf <b>Contest hinzufügen</b> klickt. Sie können ihre eingereichten Wettbewerbe überprüfen und feststellen, ob sie einen Wettbewerb gewonnen haben oder nicht. Wenn sie auch für ein Kunstwerk gespendet haben, können sie ihre Zahlungshistorie überprüfen. <br />
-<br />
-<b>Administrator:</b> Ein Administrator kann alle Benutzer verwalten, einschließlich der Befugnis, einen normalen Benutzer zu einem Creator zu machen. Bei Bedarf kann der Administrator einen Benutzer löschen. Sie können auch einen Creator als Gewinner erklären. Der Administrator hat Zugriff auf den Support-Bereich, der alle Kontaktinformationen anzeigt.
+<b>Benutzer:</b>
+<ul className='list-disc ml-10'>
+  <li>Ein Benutzer kann ein Kunstwerk auswählen und über die Zahlungsmethode Card Payment spenden</li>
+  <li>
+  Im Dashboard für allgemeine Benutzer können diese ihr Profil, den Warenkorb, gespendete Wettbewerbe und die Zahlungshistorie überprüfen
+  </li>
+</ul>
+<b>Kunstler:</b> 
+<ul className='list-disc ml-10'>
+  <li>
+  Ein Creator kann ein Kunstwerk hinzufügen, indem er auf Contest hinzufügen klickt  
+  </li>
+  <li>
+  Sie können ihre eingereichten Wettbewerbe überprüfen und feststellen, ob sie einen Wettbewerb gewonnen haben oder nicht
+  </li>
+  <li>
+  Wenn sie auch für ein Kunstwerk gespendet haben, können sie ihre Zahlungshistorie überprüfen
+  </li>
+</ul>
+<b>Administrator:</b> 
+<ul className='list-disc ml-10'>
+  <li>
+  Ein Administrator kann alle Benutzer verwalten, einschließlich der Befugnis, einen allgemeinen Benutzer zu einem Creator zu machen
+  </li>
+  <li>
+  Bei Bedarf kann der Administrator einen Benutzer löschen
+  </li>
+</ul>
 </div>
 
 </div>

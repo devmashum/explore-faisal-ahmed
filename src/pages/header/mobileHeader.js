@@ -47,7 +47,7 @@ const MobileHeader = () => {
    <h3 className='text-3xl mb-5'>Über mich</h3>
 {/* <h4 className='text-xl font-semibold my-2'>Frontend Developer based in Berlin</h4>
 <p className=' text-base font-semibold'>Crafting outstanding and user-friendly digital experiences for the web is my passion.</p> */}
-<p className='mt-2 text-justify'>Mein Name ist Faisal Ahmed. Ich bin ein Front-End-Webentwickler. Ich liebe es, meine Kreativität einzusetzen, um etwas Neues zu schaffen. Deshalb arbeite ich gerne mit React.js, Tailwind, JavaScript und anderen Webtechnologien. Im Laufe des letzten Jahres habe ich eigenständig Wissen in verschiedenen Bereichen der Webentwicklung gesammelt. Zudem habe ich an zwei Webentwickler-Bootcamps teilgenommen, um mein Wissen im Bereich der Webtechnologie weiter auszubauen. Mein ultimatives Ziel ist es, ein beeindruckender Full-Stack-Webentwickler zu werden, der schöne Benutzeroberflächen erstellen und gleichzeitig das Back-End reibungslos handhaben kann. 🚀
+<p className='mt-2 text-justify'>Mein Name ist Faisal Mashum. Ich bin ein Front-End-Webentwickler. Ich liebe es, meine Kreativität einzusetzen, um etwas Neues zu schaffen. Deshalb arbeite ich gerne mit HRML, CSS, JavaScript, React, Next.js, Tailwind und MongoDB. Im Laufe der letzten Jahre habe ich eigenständig Wissen in verschiedenen Bereichen der Webentwicklung gesammelt. Zudem habe ich an zwei Webentwickler-Bootcamps teilgenommen, um mein Wissen im Bereich der Webtechnologie weiter auszubauen und mich weiter zu entwickeln. Mein ultimatives Ziel ist es schöne benutzerfreundliche Webseiten zu erstellen. 🚀
 </p>
    </div>
           
