@@ -14,7 +14,7 @@ const Kioko = () => {
 
             <div className='p-5'>
           <div className='flex gap-3'>
-            <div><h3 className=' text-slate-900 text-xl lg:text-2xl'>Projekttitle: </h3></div>
+            <div><h3 className=' text-slate-900 text-xl lg:text-2xl'>Projekname: </h3></div>
             <div><h2 className="text-slate-900 text-xl lg:text-2xl font-bold ">
             Kioko Sushi</h2>
             </div>
