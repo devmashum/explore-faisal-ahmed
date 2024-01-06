@@ -7,13 +7,14 @@ const CarDoctor = () => {
     return (
         <div>
       <div>
-            <Link href={'https://car-doctor-2b00a.web.app/'} target='_blank'><Image className='w-full lg:h-[600px]' src={Car} width={700} alt='Car'/></Link>
+            <Link href={'https://car-doctor-2b00a.web.app/'} target='_blank'><Image className='w-full' src={Car} width={800} alt='Car'/></Link>
 
-            <div className='lg:px-40 p-5 py-5'>
+            <div className='lg:px-40 p-5 py-5 bg-slate-50'>
           <div>
             <div><h3 className=' text-slate-900 text-xl font-bold'>Projektname: </h3></div>
-            <div><h2 className="text-slate-900 text-xl  ">
+            <div className='flex items-center justify-start gap-3'><h2 className="text-slate-900 text-xl mt-3">
             Car Doctor</h2>
+            <Link href={'https://car-doctor-2b00a.web.app/'} target='_blank'><button className=' btn text-xl bg-slate-200 p-2 rounded-lg mt-3'>Live Link</button></Link>
             </div>
             </div>
             <h3 className="text-slate-900 text-xl font-bold mt-3">Projektdetails:</h3>

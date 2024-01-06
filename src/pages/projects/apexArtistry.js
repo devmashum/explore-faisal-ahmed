@@ -1,64 +1,83 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import img from '../../assets/apexArtistry.png';
+import Image from "next/image";
+import Link from "next/link";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import img from "../../assets/apexArtistry.png";
 
 const ApexArtistry = () => {
   return (
-    <div className='mt-10'>
-      <div className=''>
-       <div className='card bg-base-100 shadow-xl rounded-3xl'>
-                  <div className='flex justify-between'>
-            <h2 className='hidden lg:block'>
-              <span className='font-bold '><span>Projektname:</span></span> Apex Artistry
+    <div className="mt-10">
+      <div className="">
+        <div className="card bg-base-100 shadow-xl rounded-3xl">
+          <div className="flex justify-between">
+            <h2 className="hidden lg:block">
+              <span className="font-bold ">
+                <span>Projektname:</span>
+              </span>{" "}
+              Apex Artistry
             </h2>
-            
-            <div className='flex gap-3'>
-              <Link href='https://github.com/devmashum/ApexArtisty-Client' target='_blank'>
-                <div className='flex gap-1 justify-center items-center'>
-                  <h2 className='font-bold'>Client</h2>
+
+            <div className="flex gap-3">
+              <Link
+                href="https://github.com/devmashum/ApexArtisty-Client"
+                target="_blank"
+              >
+                <div className="flex gap-1 justify-center items-center">
+                  <h2 className="font-bold">Client</h2>
                   <FaGithub />
                 </div>
               </Link>
-              <Link href='https://github.com/devmashum/ApexArtisty-Server' target='_blank'>
-                <div className='flex gap-1 justify-center items-center'>
-                  <h2 className='font-bold'>Server </h2>
+              <Link
+                href="https://github.com/devmashum/ApexArtisty-Server"
+                target="_blank"
+              >
+                <div className="flex gap-1 justify-center items-center">
+                  <h2 className="font-bold">Server </h2>
                   <FaGithub />
                 </div>
               </Link>
-              <Link href='https://apexartistry-47b43.web.app/' target='_blank'>
-                <div className='flex gap-1 justify-center items-center'>
-                  <h2 className='font-bold'>Live </h2>
+              <Link href="https://apexartistry-47b43.web.app/" target="_blank">
+                <div className="flex gap-1 justify-center items-center">
+                  <h2 className="font-bold">Live </h2>
                   <FaExternalLinkAlt />
                 </div>
               </Link>
-                           </div>
-            
+            </div>
           </div>
-       
 
-        
-          <Link href='https://apexartistry-47b43.web.app/' target='_blank'>
+          <Link href="https://apexartistry-47b43.web.app/" target="_blank">
             <figure>
-            <Image className='w-full lg:h-[400px] mx-auto mt-5' src={img}  alt='Apex' width={800} style="transform: translateY(0%); transition: transform 10s ease-in-out 0s;" />
+              <Image
+                className="w-full lg:h-[400px] mx-auto mt-5"
+                src={img}
+                alt="Apex"
+                width={800}
+                style="transform: translateY(0%); transition: transform 10s ease-in-out 0s;"
+              />
             </figure>
           </Link>
-          <div className='lg:p-10 grid grid-cols-3 lg:grid-cols-5 lg:gap-5 gap-2 text-center'>
-            <h2 className='border border-xl border-black text-sm lg:text-base'>HTML</h2>
-            <h2 className='border border-xl border-black'>CSS</h2>
-                      <h2 className='border border-xl border-black'>JavaScript</h2>
-            <h2 className='border border-xl border-black'>React</h2>
-            <h2 className='border border-xl border-black'>DaisyUi</h2>
-            <h2 className='border border-xl border-black'>MongoDB</h2>
-            <h2 className='border border-xl border-black'>Firebase</h2>
-            <h2 className='border border-xl border-black'>JWT</h2>
-            <h2 className='border border-xl border-black'>Stripe</h2>
+          <div className="lg:p-10 grid grid-cols-3 lg:grid-cols-5 lg:gap-5 gap-2 text-center">
+            <h2 className="border border-xl border-black text-sm lg:text-base">
+              HTML
+            </h2>
+            <h2 className="border border-xl border-black">CSS</h2>
+            <h2 className="border border-xl border-black">JavaScript</h2>
+            <h2 className="border border-xl border-black">React</h2>
+            <h2 className="border border-xl border-black">DaisyUi</h2>
+            <h2 className="border border-xl border-black">MongoDB</h2>
+            <h2 className="border border-xl border-black">Firebase</h2>
+            <h2 className="border border-xl border-black">JWT</h2>
+            <h2 className="border border-xl border-black">Stripe</h2>
           </div>
-          <div className='w-9/12 mx-auto text-center'>
-         <Link href='/ApexArtistry' target='_blank'> <button className='lg:px-20 px-2 py-2 btn btn-primary bg-[#d9d9d9]  lg:text-xl rounded-xl mt-5 lg:mb-2'>Projektdetails</button></Link>
-              </div>
-              <br />
-              <br />
+          <div className="w-9/12 mx-auto text-center">
+            <Link href="/ApexArtistry" target="_blank">
+              {" "}
+              <button className="lg:px-20 px-2 py-2 btn bg-[#d9d9d9]  lg:text-xl rounded-xl mt-5 lg:mb-2">
+                Projektdetails
+              </button>
+            </Link>
+          </div>
+          <br />
+          <br />
         </div>
       </div>
       {/* <div className='lg:w-[50%] mt-5 lg:mt-0 lg:ml-10'>

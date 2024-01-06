@@ -9,11 +9,13 @@ const ApexArtistry = () => {
         <div>
             <Link  href={'https://apexartistry-47b43.web.app/'} target='_blank'><Image className='w-full  lg:border-b-blue-300 border-2' src={Apex} width={800}  alt='Apex'/></Link>
 
-            <div className='lg:px-40 p-5 bg-slate-100'>
+            <div className='lg:px-40 p-5 bg-slate-50'>
           <div className=' gap-3'>
             <div><h3 className='text-slate-900 text-xl font-bold'>Projekname: </h3></div>
-            <div><h2 className="text-slate-900  text-xl mt-3">
+            <div className='flex  items-center justify-start gap-5'><h2 className="text-slate-900  text-xl mt-3">
             Apex Artistry</h2>
+
+            <Link href={'https://apexartistry-47b43.web.app/'} target='_blank'><button className=' btn text-xl bg-slate-200 p-2 rounded-lg mt-3'>Live Link</button></Link>
             </div>
             </div>
             <h3 className="text-slate-900 text-xl font-bold my-3 ">Projektdetails:</h3>
