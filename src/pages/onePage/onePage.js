@@ -11,6 +11,7 @@ import imgNews from "../../assets/dragonNews.png";
 import imgKioko from "../../assets/Kioko Sushi GmbH.png";
 import TechStack from "../tech/tech";
 import Footer from "../footer/footer";
+import logo from "../../assets/logo.png";
 
 const OnePage = () => {
   return (
@@ -58,7 +59,7 @@ const OnePage = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Faisal Mashum</a>
+          <Image width={300} src={logo} alt="logo"></Image>
         </div>
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1 text-xl">
@@ -111,10 +112,10 @@ const OnePage = () => {
       {/* Über-mich */}
       <div
         id="über-mich"
-        className="flex flex-row-reverse  items-center bg-slate-100 p-5"
+        className="flex flex-row-reverse  items-center bg-slate-100 p-5 "
       >
         <div className="w-[90%]">
-          <div className="mx-20 mt-20">
+          <div className="mx-20">
             <div className="flex items-center justify-center gap-10">
               <div className="w-[30%]">
                 <Image src={img} alt="Header Foto" />
@@ -240,7 +241,7 @@ const OnePage = () => {
                 <div className="w-9/12 mx-auto text-center">
                   <Link href="/ApexArtistry" target="_blank">
                     {" "}
-                    <button className="lg:px-20 px-2 py-2 btn  bg-[#d9d9d9]  lg:text-xl rounded-xl mt-5 lg:mb-2">
+                    <button className="lg:px-20 px-2 py-2 btn  bg-slate-100  lg:text-xl rounded-xl mt-5 lg:mb-2">
                       Projektdetails
                     </button>
                   </Link>
@@ -310,7 +311,7 @@ const OnePage = () => {
                 <div className="w-9/12 mx-auto text-center">
                   <Link href="/CarDoctor" target="_blank">
                     {" "}
-                    <button className="lg:px-20 px-2 py-2 btn  bg-[#d9d9d9]  lg:text-xl rounded-xl mt-5 lg:mb-2">
+                    <button className="lg:px-20 px-2 py-2 btn  bg-slate-100  lg:text-xl rounded-xl mt-5 lg:mb-2">
                       Projektdetails
                     </button>
                   </Link>
@@ -382,7 +383,7 @@ const OnePage = () => {
                 <div className="w-9/12 mx-auto text-center">
                   <Link href="/DragonNews" target="_blank">
                     {" "}
-                    <button className="lg:px-20 px-2 py-2 btn  bg-[#d9d9d9]  lg:text-xl rounded-xl mt-5 lg:mb-2">
+                    <button className="lg:px-20 px-2 py-2 btn  bg-slate-100  lg:text-xl rounded-xl mt-5 lg:mb-2">
                       Projektdetails
                     </button>
                   </Link>
@@ -434,7 +435,7 @@ const OnePage = () => {
                 <div className="w-9/12 mx-auto text-center">
                   <Link href="/Kioko" target="_blank">
                     {" "}
-                    <button className="lg:px-20 px-2 py-2 btn  bg-[#d9d9d9]  lg:text-xl rounded-xl mt-5 lg:mb-2">
+                    <button className="lg:px-20 px-2 py-2 btn  bg-slate-100  lg:text-xl rounded-xl mt-5 lg:mb-2">
                       Projektdetails
                     </button>
                   </Link>

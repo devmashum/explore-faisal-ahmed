@@ -65,7 +65,7 @@ const DragonNews = () => {
             <div className="w-9/12 mx-auto text-center">
               <Link href="/DragonNews" target="_blank">
                 {" "}
-                <button className="lg:px-20 px-2 py-2 btn bg-[#d9d9d9]  lg:text-xl rounded-xl mt-5 lg:mb-2">
+                <button className="lg:px-20 px-2 py-2 btn bg-slate-100  lg:text-xl rounded-xl mt-5 lg:mb-2">
                   Projektdetails
                 </button>
               </Link>
