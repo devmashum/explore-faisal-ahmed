@@ -59,6 +59,7 @@ const DragonNews = () => {
             <div className="lg:p-10 p-3 grid grid-cols-3 lg:grid-cols-4 gap-5 text-center">
               <h2 className="border border-xl border-black">JavaScript</h2>
               <h2 className="border border-xl border-black">Next.js</h2>
+              <h2 className="border border-xl border-black">Material Ui</h2>
               <h2 className="border border-xl border-black">DaisyUi</h2>
               <h2 className="border border-xl border-black">MongoDB</h2>
             </div>
